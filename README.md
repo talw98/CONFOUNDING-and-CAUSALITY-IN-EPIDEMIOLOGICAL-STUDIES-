@@ -1,40 +1,53 @@
 # CONFOUNDING and CAUSALITY in EPIDEMIOLOGICAL STUDIES
 
 **Introduction**
+
 This project, titled "Confounding in Epidemiological Studies," is part of the Epidemiology for Public Health Specialization offered by Imperial College London on Coursera. The aim of this project is to explore and analyze the potential confounding factors in a case-control study investigating the association between sedentary occupation and coronary heart disease (CHD).
 
 ### Project Overview
+
 **Study Design**
+
 The case-control study recruited 500 individuals diagnosed with CHD and 500 controls without a CHD diagnosis. Participants were queried about their physical activity in the workplace over the past decade, with a focus on identifying those with a sedentary occupation.
 
 **Initial Analysis**
+
 The project begins with a calculation of the crude odds ratio, providing an initial understanding of the association between a sedentary lifestyle and CHD. The statistical significance of the association is determined using the chi-square test.
 
 **Confounding Criteria Evaluation**
+
 The project establishes three criteria to evaluate the presence of confounding, specifically focusing on the extraneous variable 'age.'
 
 *1) Association between Age and Sedentary Lifestyle*
+
 A 2x2 table is constructed to assess whether age is associated with the exposure variable (sedentary lifestyle) in the control group. The chi-square test and odds ratio calculations support the conclusion that age is associated with a sedentary lifestyle.
 
 *2) Association between Age and CHD in the Absence of Sedentary Lifestyle*
+
 Another 2x2 table is created to investigate the association between age and the outcome variable (CHD) in the absence of exposure (sedentary lifestyle). The results indicate a significant association between age and CHD in non-sedentary individuals.
 
 *3) Causal Path Evaluation*
+
 The causal path between sedentary lifestyle, age, and CHD is explored. The conclusion is that age is not in the causal path between sedentary lifestyle and CHD.
 
 **Overall Conclusion**
+
 Age is identified as a confounding factor based on the three established criteria.
 
 ### Confounding Verification via Stratification
+
 To further strengthen the understanding of confounding, the project employs stratification by constructing two 2x2 tables for age groups 60 or above and 60 or below. This allows for the calculation of odds ratios within each stratum.
 
 **Age 60 or Above Stratification**
+
 The odds ratio for this stratum is 1.625, indicating a significant association between sedentary lifestyle and CHD.
 
 **Age Below 60 Stratification**
+
 The odds ratio for this stratum is 1.64, also showing a significant association.
 
 **Overall Stratification Conclusion**
+
 The odds ratios in both strata are similar and differ from the crude odds ratio, providing further evidence that age is a confounding factor.
 
 
